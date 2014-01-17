@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Griotte : mixing sensors and medias with scenarios on your RaspberryPi">
+    <meta name="author" content="ERASME">
+
+    <title>Griotte : mixing sensors and medias with scenarios on your RaspberryPi</title>
+
+    <link rel="icon" type="image/png" href="img/cherry.png" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Griotte</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a target="_blank" href="docs/">Docs</a></li>
+            <li><a href="mailto:mblanc@erasme.org">Contact <i class="fa fa-envelope-o fa-fw"></i></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="intro-header">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro-message">
+              <h1>Griotte</h1>
+              <h3>Mixing sensors and medias with scenarios on your RaspberryPi</h3>
+              <hr class="intro-divider">
+              <ul class="list-inline intro-social-buttons">
+                <li><a href="docs/" class="btn btn-default btn-lg"><i class="fa fa-book fa-fw"></i> <span class="network-name">Docs</span></a></li>
+                <li><a href="downloads/" class="btn btn-default btn-lg"><i class="fa fa-download fa-fw"></i> <span class="network-name">Downloads</span></a></li>
+                <li><a href="https://github.com/erasme/griotte" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
+                <li><a href="http://erasme.org" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-external-link fa-fw"></i> <span class="network-name">Erasme</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.intro-header -->
+
+    <div class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Create an interactive exhibit<br>...or anything else !</h2>
+            <p class="lead">Griotte lets you create complex scenarios involving sensors, driving actuators and playing medias.
+            Build museum exhibits, classroom experiments or your next sensor-enabled media center.
+            </p>
+          </div>
+          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <a id="ifyou" href="http://www.youtube.com/watch?v=juJyP0ZY8G8?autoplay=1&rel=0"><img class="img-responsive" src="img/story.png" alt=""></a>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Use any sensor <br>from Grove</h2>
+            <p class="lead">Griotte is compatible with digital, analog and i2c sensors from Seedstudio's <a target="_blank"
+            href="http://www.seeedstudio.com/wiki/GROVE_System">Grove
+          system</a>, thanks to <a target="_blank"
+            href="https://github.com/hugokernel/RaspiOMix">RaspiOMix</a> daughter card. However,
+          digital sensors with compatible voltages can be used without the daughter card.<br>Touchatag NFC readers are supported too !</p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img class="img-responsive" src="img/sensors.jpg" alt="">
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Create you scenario without code<br> but by moving blocks</h2>
+            <p class="lead">Griotte's web interface embeds a visual programming editor called <a target="_blank" href="https://code.google.com/p/blockly/">Blockly</a>. Creating scenarios can not be easier.
+          </div>
+          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <a id="ifsce" href="http://www.youtube.com/watch?v=IKY9EGdr7OM?autoplay=1&rel=0"><img class="img-responsive" src="img/scenar.png" alt=""></a>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Griotte is <br>Open Source</h2>
+            <p class="lead">Built with Open Source software... works on Open Hardware.</p>
+            <p class="lead">Griotte is currently pre-&alpha;. Not a hacker ? Please come back to us in a few weeks !</p>
+          </div>
+          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+            <img class="img-responsive" src="img/raspi.jpg" alt=""></a>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.content-section-b -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 col-sm-push-8">
+            <h2>Fork it on </h2>
+          </div>
+          <div class="col-lg-4">
+            <ul class="list-inline banner-social-buttons">
+              <li><a href="https://github.com/erasme/griotte" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+
+    </div><!-- /.banner -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li><a href="#">Top</a></li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li><a target="_blank" href="docs/">Docs</a></li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li><a href="mailto:mblanc@erasme.org">Contact <i class="fa fa-envelope-o fa-fw"></i></a></li>
+            </ul>
+            <p class="copyright text-muted small">Copyright &copy; <a href="http://erasme.org">ERASME</a> 2014. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- Fancybox -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <script>
+    $(document).ready(function() {
+
+      $("#ifyou").click(function() {
+        $.fancybox({
+            'padding'   : 0,
+            'autoScale'     : false,
+            'transitionIn'  : 'none',
+            'transitionOut' : 'none',
+            'title'     : this.title,
+            'width'     : 600,
+            'height'    : 800,
+            'href'      : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+            'type'      : 'swf',
+            'swf'     : {
+            'wmode'    : 'transparent',
+            'allowfullscreen' : 'true'
+            }
+          });
+
+        return false;
+      });
+
+      $("#ifsce").click(function() {
+        $.fancybox({
+            'padding'   : 0,
+            'autoScale'     : false,
+            'transitionIn'  : 'none',
+            'transitionOut' : 'none',
+            'title'     : this.title,
+            'width'     : 640,
+            'height'    : 640,
+            'href'      : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+            'type'      : 'swf',
+            'swf'     : {
+            'wmode'    : 'transparent',
+            'allowfullscreen' : 'true'
+            }
+          });
+
+        return false;
+      });
+    });
+
+    </script>
+  </body>
+</html>
